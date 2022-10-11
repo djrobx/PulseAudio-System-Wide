@@ -22,9 +22,9 @@ Additional files in this with Shairport-Sync config in conjunction with a system
 
 Goal:
 
-Shairport-Sync with Airplay2 to an HDMI output of a Raspberry Pi 4 to an a/v receiver.
-Stereo audio duplicated to surround channels
-A/v receiver powered on/off on demand (see scripts in opt)
+1) Shairport-Sync with Airplay2 to an HDMI output of a Raspberry Pi 4 to an a/v receiver.
+2) Stereo audio duplicated to surround channels
+3) A/v receiver powered on/off on demand (see scripts in opt)
 
 Problems:
 
