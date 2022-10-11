@@ -15,3 +15,8 @@ sudo cp ./client.conf /etc/pulse/client.conf
 sudo sed -i '/^pulse-access:/ s/$/root,pi/' /etc/group    
 ```     
 All done. Now you should have PulseAudio as a system service.     
+
+# Shairport-Sync config with System Wide Pulse Aduio
+
+Additional files in this with Shairport-Sync config in conjunction with a system-wide PulseAduio to support Airplay2
+
