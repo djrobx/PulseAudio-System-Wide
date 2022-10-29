@@ -12,7 +12,7 @@ sudo cp ./pulseaudio.service /etc/systemd/system/pulseaudio.service
 systemctl --system enable pulseaudio.service       
 systemctl --system start pulseaudio.service       
 sudo cp ./client.conf /etc/pulse/client.conf        
-sudo sed -i '/^pulse-access:/ s/$/root,pi/' /etc/group    
+sudo sed -i '/^pulse-access:/ s/$/root,pi,shairport-sync/' /etc/group    
 ```     
 All done. Now you should have PulseAudio as a system service.     
 
