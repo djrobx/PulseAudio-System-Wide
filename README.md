@@ -34,9 +34,10 @@ Problems:
 4) PulseAudio does not enable the HDMI port if the AV receiver is off at boot.
 5) Some things suggest making it "Sticky" but that doesn't seem to be supported in PulseAudio 14.0 that Raspberry OS uses.
 6) Need the power on script to restart PulseAudio if HDMI port is not present 
-7) Shairport-sync will crash if PulseAudio was restarted. -> Set Shairport-sync service to auto-restart (see shairport-sync.service)
+7) Even if pulseaudio seems to be configured correctly, you need to rescan devices before it starts sending audio
+8) Shairport-sync will crash if PulseAudio was restarted. -> Set Shairport-sync service to auto-restart (see shairport-sync.service)
 
-Because it took me 3 solid days of experimentation to get this to mostly work the way I wanted, I'm committing here for others to see and as a personal backup!
+Because it took me 4 solid days of experimentation to get this to mostly work the way I wanted, I'm committing here for others to see and as a personal backup!
 
 
 
